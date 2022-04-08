@@ -2,6 +2,7 @@ import pandas as pd
 import sys
 import time
 from tabulate import tabulate
+import numpy
 
 import Template
 import UI
@@ -35,7 +36,7 @@ def clean_up(raw_scan_DF):
     #         + filename + ' contains those duplicated rows.')
     
     # Lower characters and strip spaces of the string values in the Name column.
-    raw_scan_DF = lower_and_strip(raw_scan_DF, cols=['Name'])
+    raw_scan_DF = Template.lower_and_strip(raw_scan_DF, cols=['Name'])
     
     # Select useful columns.
     raw_scan_DF = raw_scan_DF[['Risk', 'CVE', 'Host', 'Port', 'Name', 'Description', 'Solution','See Also' , 'Plugin Output']]
@@ -88,9 +89,7 @@ def clean_up(raw_scan_DF):
     
     # Tell the user how many rows are left, after clean up.
     print('\nOnly \33[01m' + str(relevant_scan_DF.shape[0]) + '\33[0m rows left after clean up.\n')
-    
-    relevant_scan_DF.to_csv('test3.csv')
-    
+        
     return relevant_scan_DF
 
 # [] Summarize a Categorized file.
@@ -164,8 +163,10 @@ def summarize(filename):
         
         c = 1
         for n in pd.unique(a['Name']):
-            f.write('\n ' + str(c) + '. ' + n)
-            print(' ' + str(c) + '. ' + n)
+            # Get list of Affected Systems that have this unique name
+            Affected_Systems = numpy.array_str(pd.unique(a[a['Name'] == n]['Affected System'])).replace('\n', '')
+            f.write('\n ' + str(c) + '. ' + n + '. Affected Systems: ' + Affected_Systems)
+            print(' ' + str(c) + '. ' + n + '. Affected Systems: ' + Affected_Systems)
             c+=1
 
         f.write('\n\nList of unique Affected Systems:')
@@ -182,8 +183,8 @@ def summarize(filename):
         
         c = 1
         for s in pd.unique(a['Solution']):
-            f.write('\n ' + str(c) + '. ' + s)
-            print(' ' + str(c) + '. ' + s)
+            f.write('\n ' + str(c) + '. ' + s.replace('\n', ''))
+            print(' ' + str(c) + '. ' + s.replace('\n', ''))
             c+=1
         
         a = a[['Affected System', 'Severity', 'Name', 'Solution']].sort_values('Name')

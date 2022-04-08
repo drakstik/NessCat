@@ -324,9 +324,7 @@ class Template:
             
             # Find the categorizeable and uncategorizeable rows in scan_results.
             categorizeables, uncategorizeables, a = self.is_categorizeable(scan_table)
-            
-            categorizeables.to_csv('test2.csv')
-            
+                        
             # Drop unnecessary column.
             categorizeables.drop('Template Category', axis=1)
             
