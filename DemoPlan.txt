@@ -1,0 +1,98 @@
+INTRO:
+
+"Hi, my name is David Mberingabo and I am the author of NessCat, and this is a video demo of "How to Use NessCat as A Template Keeper".
+
+We will be exploring the commands used and the activity flow of the typical Template Keeper user. We will run the template.py script
+and initialize a new Template. We will NOT be discussing the Categorizer.py script. I also assume that you have explored this tool by going to the github repo and
+reading the user documents such as this powerpoint or the README attached to the NessCat public repo."
+
+1. Start with the github repo and clone the repo. 
+
+2. Then open VS Code to show them the empty Template.csv and the Historical reports used in the initialization of the Template.
+
+3. Run command and go through normal initialization, then show edge cases #1 and #2<No> and #4 in the Activity Diagram.
+
+4. Remove a category, mispell a category and recategorize a vuln to create conflict.
+
+5. Run command again and go through edge case initialization while showing #1, #2<number>, #3 and #4 in the Activity Diagram.
+
+INTRO #2:
+
+Slide 1.
+
+"Hi, my name is David Mberingabo and I am the author of NessCat, and this is a video demo of 'How to Use NessCat as A Categorizer'".
+
+Slide 2.
+
+"We will be exploring the commands used and the activity flow of the typical Categorizer user. We will run the categorizer.py script
+and summarize a fresh Nessus scan, that has not yet been categorized. We will NOT be discussing the Template.py script,
+as it has its own demo video, which can be found on the project's GitHub. I also assume that you have explored this tool by going to the github repo and
+reading the user documents such as this powerpoint or the README attached to the public repo."
+
+Slide 4.
+
+"A categorizer is a user that has only read access to the Template, and uses Categorizer.py function to automatically summarize new Nessus scan results."
+
+1. Start with the github repo and clone the repo.
+
+2. Show the Template's repository and the new Nessus scans.
+
+3. Run command and go through normal steps, without edge case #1 and #2 (illustrate using flow diagram).
+
+Slide 5
+
+"A proposed change is created when edge cases #1 and #2 occur. These are changes to the Template, that are made locally by the categorizer.
+These changes can then be forwarded to a Template Keeper to update the online Template."
+
+4. Showcase new Nessus scan that triggers edge case #1 (uncategorizeable name) and #2 (temporary change to the Template) (illustrate using flow diagram).
+
+What is NessCat?:
+        NessCat is a tool that categorizes and summarizes Nessus scan results following a report format.
+        NessCat recognizes two types of users: Categorizers and Template Keepers. 
+        If you are a Categorizer you can skip the next x slides and start on slide y.
+
+Requirements:
+    1. Linux OS terminal.
+    2. Python3.
+    3. Git (for Template Keepers)
+
+What is a Template?: 
+            A Template is a file that helps NessCat define the categorization of vulnerabilities. 
+            A Template is a csv file with two columns, Name and Category. The Name column contains vulnerability names from Tenable
+            and the Category column contains the categorization under which Template Keepers put that vulernability name. The Template is stored online
+            and is downloaded each time users run the Categorizer.py file to maintain report uniformity.
+
+Who is a Template Keeper?: 
+            A Template Keeper has write access to the Online Template (in the form of a Github token). 
+            Their job is to add proposed changes and historical data to the Template. They must agree on the categorization of each vulnerability name, as it will be used by 
+            others to create client reports, and the client reports must be uniform.
+
+What is Historical Data?:
+            Historical Data are csv files categorized vulnerability names that have historically been used by KPMG. 
+            These are used to initialize the Template.
+
+How To Use NessCat as a Template Keeper?: 
+            Here is a quick demo on initializing the Template with historical data and implementing Proposed Changes.
+            Step 0: Open with a short intro of the edge cases in the Activity Diagram
+            Step 1: Start with an empty Template.
+            Step 2: Add all the historical data to the Template, at once and go through the process while referencing the Activity Diagram.
+                        - Delete a category and show them the raised error.
+                        - Change one of the categories so (3) can be shown.
+            Step 3: Add the proposed changes to the Template and go through the process while refencing the Activity Diagram.
+            Key Commands: `$ python3 Template.py "TestCSVs/Historical Nessus Report.csv" "TestCSVs/Historical Nessus Report_1.csv" "TestCSVs/Historical Nessus Report_2.csv"`  
+
+What is a Categorizer?:
+            A Categorizer has no write access to the Online Template, but can create Proposed Changes and automatically summarize new Nessus scan results.
+        
+What are Proposed Changes?:
+            These are csv files that are generated if the offline template was modified, during the Categorizer.
+            As Categorizers face new vulnerability names, they may temporarily categorize them, but these categorizations do not affect the online Template. 
+            These proposed changes are sent to Template Keepers to finalize implementation or reject the proposed changes.
+    
+What is a New Nessus Scan Result?:
+            These are csv files that are generated by a Nessus Scan.
+            [Screenshot of "export Nessus scan results as CSV"]
+
+How To Use NessCat as a Categorizer?:
+            Here is a quick demo on how to categorize and summarize New Nessus Scan Results:
+            Step 1: Categorize and summarize 'Raw Nessus Scan_3.csv' and go through the process while referencing the Activity Diagram.

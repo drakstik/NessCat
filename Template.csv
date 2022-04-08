@@ -1,164 +1,242 @@
 Name,Category
 smb server doublepulsar backdoor / implant detection (eternalrocks),backdoor detected
-cisco wireless lan controller secure shell unauthorized access vulnerability,cisco related vulnerability
+cisco data center network manager sql injection (cisco-sa-dcnm-sql-inject-8hk6pwmf),cisco related vulnerability
+cisco data center network manager authorization bypass vulnerabilities (cisco-sa-dcnm-authbypass-ohbpbxu),cisco related vulnerability
+cisco data center network manager privilege escalation (cisco-sa-dcnm-privescal-zxfch7dg),cisco related vulnerability
+cisco data center network manager multiple stored cross-site scripting vulnerablities (june 2020),cisco related vulnerability
+cisco data center network manager improper authorization (cisco-sa-dcnm-improper-auth-7krd9tdt),cisco related vulnerability
+cisco data center network manager information disclosure (cisco-sa-dcnm-info-disc-qcsjb6yg),cisco related vulnerability
+snmp request cisco router information disclosure,cisco related vulnerability
+cisco data center network manager command injection (cisco-sa-dcnm-rest-inj-bct8pwaj),cisco related vulnerability
+cisco data center network manager path traversal (cisco-sa-dcnm-path-trav-2xzonjdr),cisco related vulnerability
+cisco data center network manager < 11.1(1) authentication bypass vulnerability,cisco related vulnerability
+cisco data center network manager < 11.3(1) multiple vulnerabilities,cisco related vulnerability
+cisco data center network manager sql injection vulnerabilities (cisco-sa-dcnm-sql-inj-oaqoobp),cisco related vulnerability
+cisco data center network manager xss (cisco-sa-dncm-xss-avmyawd2),cisco related vulnerability
+cisco ios tftp file disclosure,cisco related vulnerability
+cisco wireless lan controller software cross-site request forgery (cisco-sa-20190417-wlc-csrf),cisco related vulnerability
 cisco wireless lan controller secure shell (ssh) denial of service vulnerability (cisco-sa-20191016-wlc-ssh-dos),cisco related vulnerability
 cisco ios ikev1 packet handling remote information disclosure (cisco-sa-20160916-ikev1) (benigncertain) (uncredentialed check),cisco related vulnerability
 cisco callmanager tftp file detection,cisco related vulnerability
-cisco data center network manager xss (cisco-sa-dcnm-xss-3jkdlslv),cisco related vulnerability
-cisco wireless lan controller software cross-site request forgery (cisco-sa-20190417-wlc-csrf),cisco related vulnerability
 cisco wireless lan controller software gui configuration denial of service vulnerabilities,cisco related vulnerability
 cisco wireless lan controller multiple vulnerabilities,cisco related vulnerability
+cisco wireless lan controller locally significant certificate denial of service vulnerability,cisco related vulnerability
+cisco wireless lan controller secure shell unauthorized access vulnerability,cisco related vulnerability
 cisco aireos software for cisco wireless lan controllers (wlc) dos (cisco-sa-iosxe-wlc-fnfv9-evraqpnx),cisco related vulnerability
 cisco data center network manager information disclosure (cisco-sa-dcnm-info-disclosure-tfx3kerc),cisco related vulnerability
 cisco wireless lan controller capwap dos (cisco-sa-wlc-capwap-dos-y2sd9uew),cisco related vulnerability
-cisco ios tftp file disclosure,cisco related vulnerability
-cisco wireless lan controller locally significant certificate denial of service vulnerability,cisco related vulnerability
-cisco data center network manager sql injection vulnerabilities (cisco-sa-dcnm-sql-inj-oaqoobp),cisco related vulnerability
-cisco data center network manager improper authorization (cisco-sa-dcnm-improper-auth-7krd9tdt),cisco related vulnerability
-cisco data center network manager < 11.3(1) multiple vulnerabilities,cisco related vulnerability
-cisco data center network manager < 11.1(1) authentication bypass vulnerability,cisco related vulnerability
-cisco data center network manager path traversal (cisco-sa-dcnm-path-trav-2xzonjdr),cisco related vulnerability
-cisco data center network manager information disclosure (cisco-sa-dcnm-info-disc-qcsjb6yg),cisco related vulnerability
-cisco data center network manager xss (cisco-sa-dncm-xss-avmyawd2),cisco related vulnerability
-cisco data center network manager sql injection (cisco-sa-dcnm-sql-inject-8hk6pwmf),cisco related vulnerability
-snmp request cisco router information disclosure,cisco related vulnerability
-cisco data center network manager multiple stored cross-site scripting vulnerablities (june 2020),cisco related vulnerability
-cisco data center network manager privilege escalation (cisco-sa-dcnm-privescal-zxfch7dg),cisco related vulnerability
-cisco data center network manager authorization bypass vulnerabilities (cisco-sa-dcnm-authbypass-ohbpbxu),cisco related vulnerability
-cisco data center network manager command injection (cisco-sa-dcnm-rest-inj-bct8pwaj),cisco related vulnerability
-ms14-066: vulnerability in schannel could allow remote code execution (2992611) (uncredentialed check),inadequate patching of operating system
-ms12-020: vulnerabilities in remote desktop could allow remote code execution (2671387) (uncredentialed check),inadequate patching of operating system
-ms17-010: security update for microsoft windows smb server (4013389) (eternalblue) (eternalchampion) (eternalromance) (eternalsynergy) (wannacry) (eternalrocks) (petya) (uncredentialed check),inadequate patching of operating system
-microsoft windows remote desktop protocol server man-in-the-middle weakness,inadequate patching of operating system
-ms16-047: security update for sam and lsad remote protocols (3148527) (badlock) (uncredentialed check),inadequate patching of operating system
-microsoft dns server remote code execution (sigred),inadequate patching of operating system
-samba badlock vulnerability,inadequate patching of operating system
-microsoft rdp rce (cve-2019-0708) (bluekeep) (uncredentialed check),inadequate patching of operating system
+cisco data center network manager xss (cisco-sa-dcnm-xss-3jkdlslv),cisco related vulnerability
 ms09-050: microsoft windows smb2 _smb2validateprovidercallback() vulnerability (975497) (educatedscholar) (uncredentialed check),inadequate patching of operating system
-quote of the day (qotd) service detection,inadequate security configuration
-snmp 'getbulk' reflection ddos,inadequate security configuration
-vmware esxi 5.5 / 6.0 / 6.5 / 6.7 dos (vmsa-2018-0018) (remote check),inadequate security configuration
-esxi 5.5 / 6.0 / 6.5 / 6.7 speculative execution side channel vulnerability (foreshadow) (vmsa-2018-0020) (remote check),inadequate security configuration
-terminal services encryption level is not fips-140 compliant,inadequate security configuration
-terminal services doesn't use network level authentication (nla) only,inadequate security configuration
-ssh weak algorithms supported,inadequate security configuration
-network time protocol daemon (ntpd) monlist command enabled dos,inadequate security configuration
-ssh protocol version 1 session key retrieval,inadequate security configuration
-network time protocol (ntp) mode 6 scanner,inadequate security configuration
-ssh weak mac algorithms enabled,inadequate security configuration
-terminal services encryption level is medium or low,inadequate security configuration
-iscsi unauthenticated target detection,inadequate security configuration
-pop3 cleartext logins permitted,inadequate security configuration
-internet key exchange (ike) aggressive mode with pre-shared key,inadequate security configuration
-web server http header internal ip disclosure,inadequate security configuration
-transport layer security (tls) protocol crime vulnerability,inadequate security configuration
-snmp agent default community name (public),inadequate security configuration
-microsoft windows smbv1 multiple vulnerabilities,inadequate security configuration
-smb signing not required,inadequate security configuration
-echo service detection,inadequate security configuration
-microsoft windows smb null session authentication,inadequate security configuration
-ms11-030: vulnerability in dns resolution could allow remote code execution (2509553) (remote check),inadequate security configuration
-sybase asa client connection broadcast remote information disclosure,inadequate security configuration
-jboss enterprise application platform dofilter() method insecure deserialization rce,inadequate security configuration
-jboss jmx console unrestricted access,inadequate security configuration
-smtp service cleartext login permitted,inadequate security configuration
-unencrypted telnet server,inadequate security configuration
-dhcp server detection,inadequate security configuration
-apache tomcat default files,inadequate security configuration
-redis server unprotected by password authentication,inadequate security configuration
-microsoft windows efsrpc ntlm reflection elevation of privilege (petitpotam) (remote),inadequate security configuration
-hsts missing from https server (rfc 6797),inadequate security configuration
-f5 big-ip rce (cve-2021-22986),inadequate security configuration
-mdns detection (remote network),inadequate security configuration
-amqp cleartext authentication,inadequate security configuration
-chargen udp service remote dos,inadequate security configuration
-x display manager control protocol (xdmcp) detection,inadequate security configuration
-ssh server cbc mode ciphers enabled,inadequate security configuration
+microsoft rdp rce (cve-2019-0708) (bluekeep) (uncredentialed check),inadequate patching of operating system
+samba badlock vulnerability,inadequate patching of operating system
+microsoft dns server remote code execution (sigred),inadequate patching of operating system
+ms16-047: security update for sam and lsad remote protocols (3148527) (badlock) (uncredentialed check),inadequate patching of operating system
+microsoft windows remote desktop protocol server man-in-the-middle weakness,inadequate patching of operating system
+ms14-066: vulnerability in schannel could allow remote code execution (2992611) (uncredentialed check),inadequate patching of operating system
+ms17-010: security update for microsoft windows smb server (4013389) (eternalblue) (eternalchampion) (eternalromance) (eternalsynergy) (wannacry) (eternalrocks) (petya) (uncredentialed check),inadequate patching of operating system
+ms12-020: vulnerabilities in remote desktop could allow remote code execution (2671387) (uncredentialed check),inadequate patching of operating system
 multiple mail server expn/vrfy information disclosure,inadequate security configuration
+ssh server cbc mode ciphers enabled,inadequate security configuration
+x display manager control protocol (xdmcp) detection,inadequate security configuration
+amqp cleartext authentication,inadequate security configuration
+vnc server unauthenticated access: screenshot,inadequate security configuration
+apache tomcat default files,inadequate security configuration
+jboss enterprise application platform dofilter() method insecure deserialization rce,inadequate security configuration
+hsts missing from https server (rfc 6797),inadequate security configuration
+microsoft windows efsrpc ntlm reflection elevation of privilege (petitpotam) (remote),inadequate security configuration
+chargen udp service remote dos,inadequate security configuration
+ibm websphere snoopservlet path disclosure,inadequate security configuration
+redis server unprotected by password authentication,inadequate security configuration
+http trace / track methods allowed,inadequate security configuration
 f5 big-ip cookie remote information disclosure,inadequate security configuration
 xmpp cleartext authentication,inadequate security configuration
-vnc server unauthenticated access: screenshot,inadequate security configuration
-ibm websphere snoopservlet path disclosure,inadequate security configuration
-web.config file information disclosure,inadequate security configuration
-http trace / track methods allowed,inadequate security configuration
-vnc server unauthenticated access,inadequate security configuration
-apache server etag header information disclosure,inadequate security configuration
-nfs shares world readable,inadequate security configuration
-vxworks wdb debug service detection,inadequate security configuration
-hp ignite-ux tftp file access information disclosure,inadequate security configuration
+mdns detection (remote network),inadequate security configuration
 oracle tns listener remote poisoning,inadequate security configuration
-microsoft windows smb shares unprivileged access,inadequate security configuration
+vnc server unauthenticated access,inadequate security configuration
+vxworks wdb debug service detection,inadequate security configuration
+nfs shares world readable,inadequate security configuration
 nfs exported share information disclosure,inadequate security configuration
+microsoft windows smb shares unprivileged access,inadequate security configuration
 nfs share user mountable,inadequate security configuration
 ip forwarding enabled,inadequate security configuration
+hp ignite-ux tftp file access information disclosure,inadequate security configuration
+f5 big-ip rce (cve-2021-22986),inadequate security configuration
+web.config file information disclosure,inadequate security configuration
+internet key exchange (ike) aggressive mode with pre-shared key,inadequate security configuration
+transport layer security (tls) protocol crime vulnerability,inadequate security configuration
+ssh weak mac algorithms enabled,inadequate security configuration
+network time protocol (ntp) mode 6 scanner,inadequate security configuration
+ssh protocol version 1 session key retrieval,inadequate security configuration
+dhcp server detection,inadequate security configuration
+terminal services doesn't use network level authentication (nla) only,inadequate security configuration
+iscsi unauthenticated target detection,inadequate security configuration
+apache server etag header information disclosure,inadequate security configuration
 hp ignite-ux tftp /etc/pass file disclosure,inadequate security configuration
-ssl medium strength cipher suites supported (sweet32),ssl related vulnerability
-ssl certificate chain contains rsa keys less than 2048 bits,ssl related vulnerability
-ssl version 2 and 3 protocol detection,ssl related vulnerability
-ssl/tls diffie-hellman modulus <= 1024 bits (logjam),ssl related vulnerability
-ssl certificate expiry,ssl related vulnerability
-ssl certificate with wrong hostname,ssl related vulnerability
-ssl rc4 cipher suites supported (bar mitzvah),ssl related vulnerability
-tls version 1.0 protocol detection,ssl related vulnerability
-ssl certificate signed using weak hashing algorithm,ssl related vulnerability
-ssl self-signed certificate,ssl related vulnerability
-ssl weak cipher suites supported,ssl related vulnerability
-transport layer security (tls) protocol crime vulnerability,ssl related vulnerability
-ssl certificate cannot be trusted,ssl related vulnerability
-ssl / tls renegotiation handshakes mitm plaintext data injection,ssl related vulnerability
-ssl / tls certificate known hard coded private keys,ssl related vulnerability
-openssl 'changecipherspec' mitm vulnerability,ssl related vulnerability
+quote of the day (qotd) service detection,inadequate security configuration
+ssh weak algorithms supported,inadequate security configuration
+network time protocol daemon (ntpd) monlist command enabled dos,inadequate security configuration
+pop3 cleartext logins permitted,inadequate security configuration
+jboss jmx console unrestricted access,inadequate security configuration
+snmp 'getbulk' reflection ddos,inadequate security configuration
+unencrypted telnet server,inadequate security configuration
+terminal services encryption level is medium or low,inadequate security configuration
+terminal services encryption level is not fips-140 compliant,inadequate security configuration
+smb signing not required,inadequate security configuration
+sybase asa client connection broadcast remote information disclosure,inadequate security configuration
+microsoft windows smb null session authentication,inadequate security configuration
+ms11-030: vulnerability in dns resolution could allow remote code execution (2509553) (remote check),inadequate security configuration
+snmp agent default community name (public),inadequate security configuration
+microsoft windows smbv1 multiple vulnerabilities,inadequate security configuration
+web server http header internal ip disclosure,inadequate security configuration
+echo service detection,inadequate security configuration
+smtp service cleartext login permitted,inadequate security configuration
+ssl/tls export_dhe <= 512-bit export cipher suites supported (logjam),ssl related vulnerability
+openssl ssl_op_netscape_reuse_cipher_change_bug session resume ciphersuite downgrade issue,ssl related vulnerability
 openssl unsupported,ssl related vulnerability
 openssl heartbeat information disclosure (heartbleed),ssl related vulnerability
-ssl/tls export_dhe <= 512-bit export cipher suites supported (logjam),ssl related vulnerability
 ssl drown attack vulnerability (decrypting rsa with obsolete and weakened encryption),ssl related vulnerability
-openssl ssl_op_netscape_reuse_cipher_change_bug session resume ciphersuite downgrade issue,ssl related vulnerability
-openssl < 1.0.2i default weak 64-bit block cipher (sweet32),ssl related vulnerability
-sslv3 padding oracle on downgraded legacy encryption vulnerability (poodle),ssl related vulnerability
 openssl aes-ni padding oracle mitm information disclosure,ssl related vulnerability
+openssl < 1.0.2i default weak 64-bit block cipher (sweet32),ssl related vulnerability
 ssl/tls export_rsa <= 512-bit cipher suites supported (freak),ssl related vulnerability
-pop3 cleartext logins permitted,ssl related vulnerability
 openssl < 0.9.8p / 1.0.0b buffer overflow,ssl related vulnerability
-unix operating system unsupported version detection,unsupported operating system
+ssl / tls certificate known hard coded private keys,ssl related vulnerability
+sslv3 padding oracle on downgraded legacy encryption vulnerability (poodle),ssl related vulnerability
+openssl 'changecipherspec' mitm vulnerability,ssl related vulnerability
+pop3 cleartext logins permitted,ssl related vulnerability
+ssl medium strength cipher suites supported (sweet32),ssl related vulnerability
+ssl certificate cannot be trusted,ssl related vulnerability
+ssl certificate with wrong hostname,ssl related vulnerability
+ssl weak cipher suites supported,ssl related vulnerability
+ssl self-signed certificate,ssl related vulnerability
+ssl certificate signed using weak hashing algorithm,ssl related vulnerability
+ssl rc4 cipher suites supported (bar mitzvah),ssl related vulnerability
+tls version 1.0 protocol detection,ssl related vulnerability
+ssl certificate expiry,ssl related vulnerability
+ssl version 2 and 3 protocol detection,ssl related vulnerability
+ssl certificate chain contains rsa keys less than 2048 bits,ssl related vulnerability
+transport layer security (tls) protocol crime vulnerability,ssl related vulnerability
+ssl/tls diffie-hellman modulus <= 1024 bits (logjam),ssl related vulnerability
+ssl / tls renegotiation handshakes mitm plaintext data injection,ssl related vulnerability
 unsupported windows os (remote),unsupported operating system
 microsoft windows xp unsupported installation detection,unsupported operating system
-solarwinds dameware mini remote control client public key buffer over-read,vulnerable version of application in use
-php < 5.2.4 multiple vulnerabilities,vulnerable version of application in use
-php < 5.3.9 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.46 multiple vulnerabilities,vulnerable version of application in use
-php < 5.3.2 / 5.2.13 multiple vulnerabilities,vulnerable version of application in use
-php < 5.2.12 multiple vulnerabilities,vulnerable version of application in use
-php < 5.2.1 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.41 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.48 vulnerability,vulnerable version of application in use
-apache 2.4.x < 2.4.39 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 8.5.0 < 8.5.49 privilege escalation,vulnerable version of application in use
-php 7.2.x < 7.2.17 multiple vulnerabilities.,vulnerable version of application in use
-apache tomcat ajp connector request injection (ghostcat),vulnerable version of application in use
-apache tomcat 6.0.x < 6.0.48 / 7.0.x < 7.0.73 / 8.0.x < 8.0.39 / 8.5.x < 8.5.8 / 9.0.x < 9.0.0.m13 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.42 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 8.5.0 < 8.5.50 privilege escalation vulnerability,vulnerable version of application in use
-apache tomcat 8.5.0 < 8.5.63 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 8.5.x < 8.5.60 information disclosure,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.100 / 8.5.x < 8.5.51 / 9.0.x < 9.0.31 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 8.5.x < 8.5.55 remote code execution,vulnerable version of application in use
-apache tomcat 8.5.0 < 8.5.56 dos,vulnerable version of application in use
-apache tomcat 8.5.0 < 8.5.57 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 8.5.x < 8.5.58 / 9.0.x < 9.0.38 http/2 request mix-up,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.82 / 8.5.x < 8.5.23 multiple vulnerabilities,vulnerable version of application in use
-php < 7.3.24 multiple vulnerabilities,vulnerable version of application in use
-php php_rshutdown_function security bypass,vulnerable version of application in use
-apache 2.4.x < 2.4.47 multiple vulnerabilities,vulnerable version of application in use
-php < 5.2.11 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.35 dos,vulnerable version of application in use
-php 5.x < 5.2.2 multiple vulnerabilities,vulnerable version of application in use
+unix operating system unsupported version detection,unsupported operating system
+apache tomcat 5.0.x <= 5.0.30 / 5.5.x < 5.5.23 content-length http request smuggling,vulnerable version of application in use
+esxi 5.5 < build 5230635 multiple vulnerabilities (vmsa-2017-0006) (remote check),vulnerable version of application in use
+esxi 5.5 < build 6480267 rpc null pointer dereference vulnerability (vmsa-2017-0015) (remote check),vulnerable version of application in use
+php 7.2.x < 7.2.30 multiple vulnerabilities,vulnerable version of application in use
+php 7.2.x < 7.2.28 / php 7.3.x < 7.3.15 / 7.4.x < 7.4.3 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.5 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 7.0.0 < 7.0.104 remote code execution,vulnerable version of application in use
+php 7.3.x < 7.3.27 / 7.4.x < 7.4.15 / 8.x < 8.0.2 dos,vulnerable version of application in use
+php 7.2.x < 7.2.32 / 7.3.x < 7.3.20 / 7.4.x < 7.4.8 information disclosure,vulnerable version of application in use
+esxi 5.5 < build 3568722 / 6.0 < build 3568940 glibc dns resolver rce (vmsa-2016-0002) (remote check),vulnerable version of application in use
+esxi 5.0 / 5.1 / 5.5 / 6.0 multiple vulnerabilities (vmsa-2016-0010) (remote check),vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.55 multiple vulnerabilities,vulnerable version of application in use
+"php 7.2.x < 7.2.31 / 7.3.x < 7.3.18, 7.4.x < 7.4.6 denial of service (dos)",vulnerable version of application in use
+esxi 5.5 < build 3248547 shared folders (hgfs) guest privilege escalation (vmsa-2016-0001) (remote check),vulnerable version of application in use
+php 7.2.x < 7.2.16 multiple vulnerabilities.,vulnerable version of application in use
+php 7.2 < 7.2.34 / 7.3.x < 7.3.23 / 7.4.x < 7.4.11 mulitiple vulnerabilities,vulnerable version of application in use
+php 7.3.x < 7.3.26 / 7.4.x < 7.4.14 / 8.x < 8.0.1 input validation error,vulnerable version of application in use
+php < 7.1.33 / 7.2.x < 7.2.24 / 7.3.x < 7.3.11 remote code execution vulnerability.,vulnerable version of application in use
+apache 2.4.x < 2.4.8 multiple vulnerabilities,vulnerable version of application in use
+php 7.3.x < 7.3.21 use-after-free vulnerability,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.57 multiple vulnerabilities (poodle),vulnerable version of application in use
+apache mod_info /server-info information disclosure,vulnerable version of application in use
+apache mod_status /server-status information disclosure,vulnerable version of application in use
+php 7.3.x < 7.3.25 / 7.4.x < 7.4.13 multiple vulnerabilities,vulnerable version of application in use
+php 7.2.x < 7.2.8 use after free arbitrary code execution in exif,vulnerable version of application in use
+apache tomcat 5.5.x < 5.5.30,vulnerable version of application in use
+vmware vcenter server 6.0 / 6.5 / 6.7 multiple vulnerabilities (vmsa-2019-0013),vulnerable version of application in use
+apache 2.2.x < 2.2.34 multiple vulnerabilities,vulnerable version of application in use
+php 7.2.x < 7.2.14 multiple vulnerabilities.,vulnerable version of application in use
+network time protocol daemon (ntpd) monlist command enabled dos,vulnerable version of application in use
+php 7.2.x < 7.2.13 multiple vulnerabilities,vulnerable version of application in use
+php 7.2.x < 7.2.18 heap-based buffer overflow vulnerability.,vulnerable version of application in use
+apache 2.2.x < 2.2.28 multiple vulnerabilities,vulnerable version of application in use
+php 7.2.x < 7.2.21 multiple vulnerabilities.,vulnerable version of application in use
+hp system management homepage < 2.1.15.210 unspecified xss,vulnerable version of application in use
+apache tomcat 7.0.0 < 7.0.94 remote code execution vulnerability (windows),vulnerable version of application in use
+isc bind service downgrade / reflected dos,vulnerable version of application in use
+esxi 5.5 < build 2352327 multiple vulnerabilities (remote check) (poodle),vulnerable version of application in use
+f5 networks big-ip : tmui rce (cve-2020-5902) (direct check),vulnerable version of application in use
+apache 2.4.6 remote dos,vulnerable version of application in use
+apache tomcat 7.0.0 < 7.0.107 information disclosure,vulnerable version of application in use
+apache 2.2.x < 2.2.23 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.53 multiple vulnerabilities,vulnerable version of application in use
+f5 big-ip rce (cve-2021-22986),vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.54 xml parser information disclosure,vulnerable version of application in use
+apache tomcat 8.0.x < 8.0.52 / 8.5.x < 8.5.31 / 9.0.x < 9.0.8 denial of service,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.105 websocket dos,vulnerable version of application in use
+php 7.2.x < 7.2.19 multiple vulnerabilities.,vulnerable version of application in use
+esxi 5.5 / 6.0 / 6.5 / multiple vulnerabilities (vmsa-2017-0021) (vmsa-2018-0002) (spectre) (remote check),vulnerable version of application in use
+apache 2.2.x < 2.2.33-dev / 2.4.x < 2.4.26 multiple vulnerabilities,vulnerable version of application in use
+php 7.2.x / 7.3.x < 7.3.22 memory leak vulnerability,vulnerable version of application in use
+apache 2.4.x < 2.4.27 multiple vulnerabilities,vulnerable version of application in use
+"isc bind 9.x < 9.11.22, 9.12.x < 9.16.6, 9.17.x < 9.17.4 dos",vulnerable version of application in use
+isc bind denial of service,vulnerable version of application in use
+vmware vcenter server 5.5.x / 6.0.x / 6.5.x / 6.7.x speculative execution side channel vulnerability (foreshadow) (vmsa-2018-0020),vulnerable version of application in use
+hp system management homepage < 7.2.0.14 iprange parameter code execution,vulnerable version of application in use
+tenable nessus < 8.6.0 denial of service vulnerability (tns-2019-05),vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.47 / 8.0.x < 8.0.0-rc3 information disclosure,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.81 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.82 multiple vulnerabilities,vulnerable version of application in use
+esxi 6.0 / 6.5 / 6.7 multiple vulnerabilities (vmsa-2019-0005) (remote check),vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.76 / 8.0.x < 8.0.42 / 8.5.x < 8.5.12 / 9.0.x < 9.0.0.m18 improper access control,vulnerable version of application in use
+apache tomcat 6.0.x < 6.0.47 / 7.0.x < 7.0.72 / 8.0.x < 8.0.37 / 8.5.x < 8.5.5 / 9.0.x < 9.0.0.m10 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 7.0.0 < 7.0.108 rce,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.68 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.52 content-type dos,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.40 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 9.0.0.m1 < 9.0.36 dos,vulnerable version of application in use
+nessus unsupported version detection,vulnerable version of application in use
+php 7.3.x < 7.3.17 out of bounds read vulnerability,vulnerable version of application in use
+apache 2.4.x < 2.4.10 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.16 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.12 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.25 multiple vulnerabilities (httpoxy),vulnerable version of application in use
+vmware esxi 5.5 < build 3029944 openslp rce (vmsa-2015-0007),vulnerable version of application in use
+esxi 6.0 / 6.5 / 6.7 multiple vulnerabilities (vmsa-2018-0027) (remote check),vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.59 security manager bypass,vulnerable version of application in use
+apache tomcat 5.0.x <= 5.0.30 / 5.5.x < 5.5.25 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.50 multiple vulnerabilities,vulnerable version of application in use
+php 7.2.x < 7.2.33 use-after-free vulnerability,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.88 denial of service,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.70 / 8.0.x < 8.0.36 / 8.5.x < 8.5.3 / 9.0.x < 9.0.0.m8 denial of service,vulnerable version of application in use
+isc bind zone update vulnerability (cve-2020-8624),vulnerable version of application in use
+apache tomcat 6.0.x < 6.0.53 / 7.0.x < 7.0.77 / 8.0.x < 8.0.43 pipelined requests information disclosure,vulnerable version of application in use
+apache tomcat 7.0.0 < 7.0.91 open redirect weakness,vulnerable version of application in use
+apache tomcat < 7.0.67 session fixation,vulnerable version of application in use
+apache 2.4.18 / 2.4.20 x.509 certificate authentication bypass,vulnerable version of application in use
+tenable nessus < 8.3.0 multiple vulnerabilities (tns-2019-02),vulnerable version of application in use
+tenable nessus < 8.2.2 stored xss vulnerability (tns-2019-01),vulnerable version of application in use
+apache 2.2.x < 2.2.24 multiple xss vulnerabilities,vulnerable version of application in use
+apache tomcat 9.0.0.m1 < 9.0.30 privilege escalation vulnerability,vulnerable version of application in use
+tenable nessus < 7.1.4 multiple vulnerabilities (tns-2018-17),vulnerable version of application in use
+tenable nessus < 8.7.0 dos (tns-2019-06),vulnerable version of application in use
+f5 big-ip cookie remote information disclosure,vulnerable version of application in use
+ilo 4 < 2.60 / ilo 5 < 1.30 multiple vulnerabilities,vulnerable version of application in use
+tenable nessus 8.x.x < 8.15.0 multiple vulnerabilities (tns-2021-11),vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.65 / 8.0.x < 8.0.27 directory traversal,vulnerable version of application in use
+tenable nessus 8.x.x < 8.14.0 privilege escalation (tns-2021-07),vulnerable version of application in use
+tenable nessus < 8.12.1 privilege escalation vulnerability (tns-2020-08),vulnerable version of application in use
+oracle glassfish server url normalization denial of service,vulnerable version of application in use
+tenable nessus < 8.11.1 session expiration (tns-2020-06),vulnerable version of application in use
+apache 2.4.x < 2.4.33 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 9.0.0 < 9.0.35 remote code execution,vulnerable version of application in use
+apache 2.2.x < 2.2.27 multiple vulnerabilities,vulnerable version of application in use
+ibm websphere java object deserialization rce,vulnerable version of application in use
+php < 5.3.11 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 8.5.16 < 8.5.24 insecure cgi servlet search algorithm description weakness,vulnerable version of application in use
+tenable nessus 6.8.x < 6.10.2 arbitrary file upload (tns-2017-06),vulnerable version of application in use
+tenable nessus < 7.1.0 multiple vulnerabilities (tns-2018-05),vulnerable version of application in use
+apache tomcat 9.0.0.m1 < 9.0.43 multiple vulnerabilities,vulnerable version of application in use
+tenable nessus 8.9.0 < 8.13.2 multiple vulnerabilities (tns-2021-05),vulnerable version of application in use
+tenable nessus < 8.5.0 multiple vulnerabilities (tns-2019-04),vulnerable version of application in use
+apache tomcat 9.x < 9.0.40 information disclosure,vulnerable version of application in use
+tenable nessus < 8.11.0 stored xss (tns-2020-05),vulnerable version of application in use
+hp system management homepage < 7.2.4.1 / 7.3.3.1 openssl multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 9.0.0.m1 < 9.0.37 multiple vulnerabilities,vulnerable version of application in use
 ilo 4 < 2.70 / ilo 5 < 1.40a multiple vulnerabilities,vulnerable version of application in use
-ilo 3 < 1.85 / ilo 4 < 2.22 denial of service vulnerability,vulnerable version of application in use
-hp ilo 4 <= 2.52 rce,vulnerable version of application in use
-php < 5.3.12 / 5.4.2 cgi query string code execution,vulnerable version of application in use
-apache tomcat 6.0.x < 6.0.43 multiple vulnerabilities (poodle),vulnerable version of application in use
-apache tomcat 7.0.0 < 7.0.85 security constraint weakness,vulnerable version of application in use
-netatalk opensession remote code execution,vulnerable version of application in use
 hp system management homepage openssl multiple vulnerabilities (heartbleed),vulnerable version of application in use
 apache 2.4.x < 2.4.28 http vulnerability (optionsbleed),vulnerable version of application in use
 ilo 4 < 2.53 remote code execution vulnerability,vulnerable version of application in use
@@ -166,192 +244,112 @@ ilo 3 < 1.88 / ilo 4 < 2.44 xss vulnerability,vulnerable version of application 
 portable sdk for upnp devices (libupnp) < 1.6.18 multiple stack-based buffer overflows rce,vulnerable version of application in use
 hp system management homepage multiple vulnerabilities (hpsbmu03593),vulnerable version of application in use
 hp ilo 3 < 1.93 / hp ilo 4 < 2.75 / hp ilo superdome 4 < 1.64 / hp ilo 5 < 2.18 / hp moonshot/edgeline ilo 5 < 2.30 ripple20 multiple vulnerabilities,vulnerable version of application in use
+solarwinds dameware mini remote control client public key buffer over-read,vulnerable version of application in use
 php < 5.2.5 multiple vulnerabilities,vulnerable version of application in use
-ilo 3 < 1.90 / ilo 4 < 2.61 / ilo 5 < 1.35 remote code execution vulnerability (hpesbhf03866),vulnerable version of application in use
 php < 5.2.8 multiple vulnerabilities,vulnerable version of application in use
+php < 5.2.9 multiple vulnerabilities,vulnerable version of application in use
 php 5.x < 5.2 multiple vulnerabilities,vulnerable version of application in use
-php 5 < 5.2.7 multiple vulnerabilities,vulnerable version of application in use
 php < 5.2.6 multiple vulnerabilities,vulnerable version of application in use
 php < 5.2.10 multiple vulnerabilities,vulnerable version of application in use
 php < 5.2.3 multiple vulnerabilities,vulnerable version of application in use
-php < 5.2.9 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 8.5.x < 8.5.34 open redirect weakness,vulnerable version of application in use
 apache tomcat 8.5.x < 8.5.16 multiple vulnerabilities,vulnerable version of application in use
-hp system management homepage < 7.2.4.1 / 7.3.3.1 openssl multiple vulnerabilities,vulnerable version of application in use
+php unsupported version detection,vulnerable version of application in use
+apache tomcat 8.5.0 < 8.5.63 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.35 dos,vulnerable version of application in use
+php < 5.2.11 multiple vulnerabilities,vulnerable version of application in use
+ilo 3 < 1.90 / ilo 4 < 2.61 / ilo 5 < 1.35 remote code execution vulnerability (hpesbhf03866),vulnerable version of application in use
+php < 5.3.12 / 5.4.2 cgi query string code execution,vulnerable version of application in use
+hp ilo 4 <= 2.52 rce,vulnerable version of application in use
+php 5 < 5.2.7 multiple vulnerabilities,vulnerable version of application in use
+netatalk opensession remote code execution,vulnerable version of application in use
+apache tomcat 7.0.0 < 7.0.85 security constraint weakness,vulnerable version of application in use
+apache 2.4.x < 2.4.47 multiple vulnerabilities,vulnerable version of application in use
+php 5.x < 5.2.2 multiple vulnerabilities,vulnerable version of application in use
+vmware esxi 5.5 / 6.0 / 6.5 / 6.7 dos (vmsa-2018-0018) (remote check),vulnerable version of application in use
+php < 5.2.1 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.46 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.41 multiple vulnerabilities,vulnerable version of application in use
+php < 5.2.12 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.48 vulnerability,vulnerable version of application in use
+apache 2.4.x < 2.4.39 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 8.5.0 < 8.5.49 privilege escalation,vulnerable version of application in use
+php 7.2.x < 7.2.17 multiple vulnerabilities.,vulnerable version of application in use
 apache tomcat 5.5.x < 5.5.32 html manager interface xss,vulnerable version of application in use
-hp system management homepage < 7.2.0.14 iprange parameter code execution,vulnerable version of application in use
-hp system management homepage < 7.5.4 multiple vulnerabilities (logjam),vulnerable version of application in use
-hp system management homepage < 7.6 multiple vulnerabilities (hpsbmu03653) (httpoxy),vulnerable version of application in use
-hp system management homepage < 7.0 multiple vulnerabilities,vulnerable version of application in use
-hp system management homepage < 7.1.1 multiple vulnerabilities,vulnerable version of application in use
-hp system management homepage < 6.2 multiple vulnerabilities,vulnerable version of application in use
-vmware esx / esxi unsupported version detection,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.78 / 8.0.x < 8.0.44 / 8.5.x < 8.5.15 / 9.0.x < 9.0.0.m21 remote error page manipulation,vulnerable version of application in use
-apache tomcat 8.5.0 < 8.5.32 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.42 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 8.5.x < 8.5.58 / 9.0.x < 9.0.38 http/2 request mix-up,vulnerable version of application in use
+php 7.3.x < 7.3.16 multiple vulnerabilities,vulnerable version of application in use
+php < 7.3.24 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 8.5.x < 8.5.55 remote code execution,vulnerable version of application in use
+apache tomcat 8.5.0 < 8.5.56 dos,vulnerable version of application in use
+apache tomcat 8.5.0 < 8.5.57 multiple vulnerabilities,vulnerable version of application in use
+php < 5.3.9 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.82 / 8.5.x < 8.5.23 multiple vulnerabilities,vulnerable version of application in use
+php < 5.3.2 / 5.2.13 multiple vulnerabilities,vulnerable version of application in use
+php php_rshutdown_function security bypass,vulnerable version of application in use
+apache tomcat 6.0.x < 6.0.48 / 7.0.x < 7.0.73 / 8.0.x < 8.0.39 / 8.5.x < 8.5.8 / 9.0.x < 9.0.0.m13 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 8.5.0 < 8.5.50 privilege escalation vulnerability,vulnerable version of application in use
+php < 5.2.4 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 8.5.x < 8.5.60 information disclosure,vulnerable version of application in use
+apache tomcat ajp connector request injection (ghostcat),vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.100 / 8.5.x < 8.5.51 / 9.0.x < 9.0.31 multiple vulnerabilities,vulnerable version of application in use
+apache 2.2.x < 2.2.25 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 6.0.16 < 6.0.50 / 7.0.x < 7.0.75 / 8.0.x < 8.0.41 / 8.5.x < 8.5.9 / 9.0.x < 9.0.0.m15 nio http connector information disclosure,vulnerable version of application in use
 codemeter runtime predictable encryption key,vulnerable version of application in use
-unsupported web server detection,vulnerable version of application in use
-apache tomcat 5.5.x < 5.5.36 digest authentication multiple security weaknesses,vulnerable version of application in use
-hp system management homepage < 7.2.5 / 7.4.1 multiple vulnerabilities (poodle),vulnerable version of application in use
-apache tomcat 5.x < 5.5.35 hash collision denial of service,vulnerable version of application in use
-apache tomcat 5.x < 5.5.21 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat < 4.1.40 / 5.5.28 / 6.0.20 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat war deployment multiple vulnerabilities,vulnerable version of application in use
-apache tomcat cross-application file manipulation,vulnerable version of application in use
-multiple server crafted request web-inf directory information disclosure,vulnerable version of application in use
-apache tomcat requestdispatcher directory traversal arbitrary file access,vulnerable version of application in use
-apache tomcat 5.0.x <= 5.0.30 / 5.5.x < 5.5.23 content-length http request smuggling,vulnerable version of application in use
-"jboss org.jboss.web.webserver class multiple vulnerabilities (source disc, id)",vulnerable version of application in use
-apache tomcat < 5.5.26 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 5.5.x < 5.5.34 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.34 multiple vulnerabilities,vulnerable version of application in use
-jboss enterprise application platform (eap) status servlet request remote information disclosure,vulnerable version of application in use
-nginx < 1.17.7 information disclosure,vulnerable version of application in use
-codemeter runtime buffer over-read (wibu-210423-01),vulnerable version of application in use
-jquery 1.2 < 3.5.0 multiple xss,vulnerable version of application in use
-hp system management homepage < 7.2.1.0 multiple vulnerabilities (beast),vulnerable version of application in use
-hp system management homepage < 7.3 multiple vulnerabilities,vulnerable version of application in use
-hp system management homepage ginkgosnmp.inc command injection,vulnerable version of application in use
-nonexistent page (404) physical path disclosure,vulnerable version of application in use
-ilo 5 < 1.40 cross site scripting (xss) vulnerability,vulnerable version of application in use
-microsoft windows smbv1 multiple vulnerabilities,vulnerable version of application in use
-hp data protector 7.0x < 7.03 build 108 / 8.1x < 8.15 / 9.0x < 9.06 multiple vulnerabilities (hpsbgn03580) (bar mitzvah),vulnerable version of application in use
-hp system management homepage < 6.3 multiple vulnerabilities,vulnerable version of application in use
-hp system management homepage < 7.4 multiple vulnerabilities,vulnerable version of application in use
 apache tomcat 8.5.0 < 8.5.41 dos,vulnerable version of application in use
-hp data protector 8.x < 8.17 / 9.x < 9.09 multiple vulnerabilities (hpsbgn03732),vulnerable version of application in use
 hp system management homepage < 6.0.0.96 / 6.0.0-95 multiple vulnerabilities,vulnerable version of application in use
 hp system management homepage < 6.1.0.102 / 6.1.0-103 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 6.0.16 < 6.0.50 / 7.0.x < 7.0.75 / 8.0.x < 8.0.41 / 8.5.x < 8.5.9 / 9.0.x < 9.0.0.m15 nio http connector information disclosure,vulnerable version of application in use
 apache tomcat 8.5.x < 8.5.13 / 9.0.x < 9.0.0.m19 multiple vulnerabilities,vulnerable version of application in use
 microsoft sql server unsupported version detection (remote check),vulnerable version of application in use
 oracle database unsupported version detection,vulnerable version of application in use
 hp data protector multiple vulnerabilities (hpsbmu02895 ssrt101253),vulnerable version of application in use
+hp system management homepage < 7.6 multiple vulnerabilities (hpsbmu03653) (httpoxy),vulnerable version of application in use
 hp data protector 8.x arbitrary command execution (hpsbmu03072),vulnerable version of application in use
-hp system management homepage 7.3.x / 7.4.x < 7.5.0 multiple vulnerabilities (freak),vulnerable version of application in use
 hp system management homepage < 3.0.1.73 multiple flaws,vulnerable version of application in use
+hp data protector 8.x < 8.17 / 9.x < 9.09 multiple vulnerabilities (hpsbgn03732),vulnerable version of application in use
 esxi 6.0 / 6.5 / 6.7 out-of-bounds read vulnerability (vmsa-2018-0026) (remote check),vulnerable version of application in use
-hp system management homepage < 7.6.1 multiple vulnerabilities (hpsbmu03753),vulnerable version of application in use
 hp system management homepage < 2.1.12 unspecified xss,vulnerable version of application in use
 apache tomcat 8.5.x < 8.5.28 security constraint weakness,vulnerable version of application in use
 hp system management homepage < 7.2.6 multiple vulnerabilities (freak),vulnerable version of application in use
 ipmi v2.0 password hash disclosure,vulnerable version of application in use
 apache tomcat 7.0.x < 7.0.60 multiple vulnerabilities (freak),vulnerable version of application in use
 apache 2.4.x < 2.4.38 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 8.0.x < 8.0.52 / 8.5.x < 8.5.31 / 9.0.x < 9.0.8 denial of service,vulnerable version of application in use
-apache tomcat 8.5.x < 8.5.34 open redirect weakness,vulnerable version of application in use
-apache tomcat 8.5.16 < 8.5.24 insecure cgi servlet search algorithm description weakness,vulnerable version of application in use
-vmware esxi 5.5 < build 3029944 openslp rce (vmsa-2015-0007),vulnerable version of application in use
-apache 2.2.x < 2.2.34 multiple vulnerabilities,vulnerable version of application in use
-php 7.2.x / 7.3.x < 7.3.22 memory leak vulnerability,vulnerable version of application in use
-apache 2.2.x < 2.2.33-dev / 2.4.x < 2.4.26 multiple vulnerabilities,vulnerable version of application in use
-php 7.2.x < 7.2.33 use-after-free vulnerability,vulnerable version of application in use
-isc bind denial of service,vulnerable version of application in use
-"isc bind 9.x < 9.11.22, 9.12.x < 9.16.6, 9.17.x < 9.17.4 dos",vulnerable version of application in use
-isc bind zone update vulnerability (cve-2020-8624),vulnerable version of application in use
-php 7.2.x < 7.2.14 multiple vulnerabilities.,vulnerable version of application in use
-network time protocol daemon (ntpd) monlist command enabled dos,vulnerable version of application in use
-php 7.2.x < 7.2.13 multiple vulnerabilities,vulnerable version of application in use
-php 7.2.x < 7.2.18 heap-based buffer overflow vulnerability.,vulnerable version of application in use
-apache 2.2.x < 2.2.28 multiple vulnerabilities,vulnerable version of application in use
-hp system management homepage < 2.1.15.210 unspecified xss,vulnerable version of application in use
-php 7.2.x < 7.2.19 multiple vulnerabilities.,vulnerable version of application in use
-apache tomcat 7.0.0 < 7.0.94 remote code execution vulnerability (windows),vulnerable version of application in use
-isc bind service downgrade / reflected dos,vulnerable version of application in use
-f5 networks big-ip : tmui rce (cve-2020-5902) (direct check),vulnerable version of application in use
-apache 2.4.x < 2.4.27 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.6 remote dos,vulnerable version of application in use
-apache 2.2.x < 2.2.23 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.57 multiple vulnerabilities (poodle),vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.53 multiple vulnerabilities,vulnerable version of application in use
-f5 big-ip rce (cve-2021-22986),vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.54 xml parser information disclosure,vulnerable version of application in use
-apache tomcat 7.0.0 < 7.0.107 information disclosure,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.105 websocket dos,vulnerable version of application in use
-esxi 5.5 < build 2352327 multiple vulnerabilities (remote check) (poodle),vulnerable version of application in use
-php 7.2.x < 7.2.21 multiple vulnerabilities.,vulnerable version of application in use
-"php 7.2.x < 7.2.31 / 7.3.x < 7.3.18, 7.4.x < 7.4.6 denial of service (dos)",vulnerable version of application in use
-esxi 5.5 < build 3248547 shared folders (hgfs) guest privilege escalation (vmsa-2016-0001) (remote check),vulnerable version of application in use
-php 7.2.x < 7.2.28 / php 7.3.x < 7.3.15 / 7.4.x < 7.4.3 multiple vulnerabilities,vulnerable version of application in use
-php < 7.1.33 / 7.2.x < 7.2.24 / 7.3.x < 7.3.11 remote code execution vulnerability.,vulnerable version of application in use
-esxi 5.5 < build 6480267 rpc null pointer dereference vulnerability (vmsa-2017-0015) (remote check),vulnerable version of application in use
-php 7.3.x < 7.3.21 use-after-free vulnerability,vulnerable version of application in use
-esxi 5.5 < build 5230635 multiple vulnerabilities (vmsa-2017-0006) (remote check),vulnerable version of application in use
-php 7.2.x < 7.2.30 multiple vulnerabilities,vulnerable version of application in use
-vmware esxi 5.5 / 6.0 / 6.5 / 6.7 dos (vmsa-2018-0018) (remote check),vulnerable version of application in use
-apache 2.4.x < 2.4.5 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 7.0.0 < 7.0.104 remote code execution,vulnerable version of application in use
-php 7.3.x < 7.3.27 / 7.4.x < 7.4.15 / 8.x < 8.0.2 dos,vulnerable version of application in use
-php 7.3.x < 7.3.25 / 7.4.x < 7.4.13 multiple vulnerabilities,vulnerable version of application in use
-php 7.2.x < 7.2.32 / 7.3.x < 7.3.20 / 7.4.x < 7.4.8 information disclosure,vulnerable version of application in use
-apache 2.4.x < 2.4.8 multiple vulnerabilities,vulnerable version of application in use
-esxi 5.0 / 5.1 / 5.5 / 6.0 multiple vulnerabilities (vmsa-2016-0010) (remote check),vulnerable version of application in use
-apache mod_info /server-info information disclosure,vulnerable version of application in use
-apache mod_status /server-status information disclosure,vulnerable version of application in use
-esxi 5.5 / 6.0 / 6.5 / multiple vulnerabilities (vmsa-2017-0021) (vmsa-2018-0002) (spectre) (remote check),vulnerable version of application in use
-php 7.2.x < 7.2.8 use after free arbitrary code execution in exif,vulnerable version of application in use
+nonexistent page (404) physical path disclosure,vulnerable version of application in use
+hp system management homepage ginkgosnmp.inc command injection,vulnerable version of application in use
+hp system management homepage < 7.3 multiple vulnerabilities,vulnerable version of application in use
+hp system management homepage 7.3.x / 7.4.x < 7.5.0 multiple vulnerabilities (freak),vulnerable version of application in use
+hp data protector 7.0x < 7.03 build 108 / 8.1x < 8.15 / 9.0x < 9.06 multiple vulnerabilities (hpsbgn03580) (bar mitzvah),vulnerable version of application in use
+microsoft windows smbv1 multiple vulnerabilities,vulnerable version of application in use
+hp system management homepage < 7.6.1 multiple vulnerabilities (hpsbmu03753),vulnerable version of application in use
+hp system management homepage < 7.4 multiple vulnerabilities,vulnerable version of application in use
+hp system management homepage < 6.3 multiple vulnerabilities,vulnerable version of application in use
+hp system management homepage < 7.2.1.0 multiple vulnerabilities (beast),vulnerable version of application in use
+hp system management homepage < 7.0 multiple vulnerabilities,vulnerable version of application in use
+unsupported web server detection,vulnerable version of application in use
+apache tomcat 5.5.x < 5.5.36 digest authentication multiple security weaknesses,vulnerable version of application in use
+hp system management homepage < 7.2.5 / 7.4.1 multiple vulnerabilities (poodle),vulnerable version of application in use
+apache tomcat 5.x < 5.5.35 hash collision denial of service,vulnerable version of application in use
+apache tomcat 5.x < 5.5.21 multiple vulnerabilities,vulnerable version of application in use
+hp system management homepage < 7.5.4 multiple vulnerabilities (logjam),vulnerable version of application in use
+apache tomcat < 4.1.40 / 5.5.28 / 6.0.20 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat cross-application file manipulation,vulnerable version of application in use
+multiple server crafted request web-inf directory information disclosure,vulnerable version of application in use
+ilo 5 < 1.40 cross site scripting (xss) vulnerability,vulnerable version of application in use
+apache tomcat requestdispatcher directory traversal arbitrary file access,vulnerable version of application in use
+"jboss org.jboss.web.webserver class multiple vulnerabilities (source disc, id)",vulnerable version of application in use
+vmware esx / esxi unsupported version detection,vulnerable version of application in use
+apache tomcat < 5.5.26 multiple vulnerabilities,vulnerable version of application in use
+apache 2.4.x < 2.4.34 multiple vulnerabilities,vulnerable version of application in use
+jboss enterprise application platform (eap) status servlet request remote information disclosure,vulnerable version of application in use
+nginx < 1.17.7 information disclosure,vulnerable version of application in use
+codemeter runtime buffer over-read (wibu-210423-01),vulnerable version of application in use
+jquery 1.2 < 3.5.0 multiple xss,vulnerable version of application in use
+apache tomcat war deployment multiple vulnerabilities,vulnerable version of application in use
+ilo 3 < 1.85 / ilo 4 < 2.22 denial of service vulnerability,vulnerable version of application in use
+hp system management homepage < 6.2 multiple vulnerabilities,vulnerable version of application in use
+hp system management homepage < 7.1.1 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 6.0.x < 6.0.43 multiple vulnerabilities (poodle),vulnerable version of application in use
+apache tomcat 8.5.0 < 8.5.32 multiple vulnerabilities,vulnerable version of application in use
+apache tomcat 7.0.x < 7.0.78 / 8.0.x < 8.0.44 / 8.5.x < 8.5.15 / 9.0.x < 9.0.0.m21 remote error page manipulation,vulnerable version of application in use
+apache tomcat 5.5.x < 5.5.34 multiple vulnerabilities,vulnerable version of application in use
 esxi 5.5 / 6.0 / 6.5 / 6.7 speculative execution side channel vulnerability (foreshadow) (vmsa-2018-0020) (remote check),vulnerable version of application in use
-esxi 5.5 < build 3568722 / 6.0 < build 3568940 glibc dns resolver rce (vmsa-2016-0002) (remote check),vulnerable version of application in use
-php 7.2.x < 7.2.16 multiple vulnerabilities.,vulnerable version of application in use
-php 7.2 < 7.2.34 / 7.3.x < 7.3.23 / 7.4.x < 7.4.11 mulitiple vulnerabilities,vulnerable version of application in use
-php 7.3.x < 7.3.26 / 7.4.x < 7.4.14 / 8.x < 8.0.1 input validation error,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.55 multiple vulnerabilities,vulnerable version of application in use
-vmware vcenter server 5.5.x / 6.0.x / 6.5.x / 6.7.x speculative execution side channel vulnerability (foreshadow) (vmsa-2018-0020),vulnerable version of application in use
-vmware vcenter server 6.0 / 6.5 / 6.7 multiple vulnerabilities (vmsa-2019-0013),vulnerable version of application in use
-tenable nessus < 8.6.0 denial of service vulnerability (tns-2019-05),vulnerable version of application in use
-apache 2.2.x < 2.2.25 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 9.0.0.m1 < 9.0.43 multiple vulnerabilities,vulnerable version of application in use
-tenable nessus < 7.1.0 multiple vulnerabilities (tns-2018-05),vulnerable version of application in use
-tenable nessus 6.8.x < 6.10.2 arbitrary file upload (tns-2017-06),vulnerable version of application in use
-nessus unsupported version detection,vulnerable version of application in use
-apache tomcat 9.x < 9.0.40 information disclosure,vulnerable version of application in use
-apache tomcat 9.0.0.m1 < 9.0.37 multiple vulnerabilities,vulnerable version of application in use
-tenable nessus < 8.5.0 multiple vulnerabilities (tns-2019-04),vulnerable version of application in use
-tenable nessus < 8.3.0 multiple vulnerabilities (tns-2019-02),vulnerable version of application in use
-tenable nessus < 8.2.2 stored xss vulnerability (tns-2019-01),vulnerable version of application in use
-apache 2.2.x < 2.2.24 multiple xss vulnerabilities,vulnerable version of application in use
-oracle glassfish server url normalization denial of service,vulnerable version of application in use
-apache tomcat 9.0.0.m1 < 9.0.30 privilege escalation vulnerability,vulnerable version of application in use
-tenable nessus < 7.1.4 multiple vulnerabilities (tns-2018-17),vulnerable version of application in use
-tenable nessus < 8.7.0 dos (tns-2019-06),vulnerable version of application in use
-php < 5.3.11 multiple vulnerabilities,vulnerable version of application in use
-f5 big-ip cookie remote information disclosure,vulnerable version of application in use
-ilo 4 < 2.60 / ilo 5 < 1.30 multiple vulnerabilities,vulnerable version of application in use
-tenable nessus 8.x.x < 8.15.0 multiple vulnerabilities (tns-2021-11),vulnerable version of application in use
-tenable nessus 8.x.x < 8.14.0 privilege escalation (tns-2021-07),vulnerable version of application in use
-tenable nessus 8.9.0 < 8.13.2 multiple vulnerabilities (tns-2021-05),vulnerable version of application in use
-tenable nessus < 8.12.1 privilege escalation vulnerability (tns-2020-08),vulnerable version of application in use
-tenable nessus < 8.11.1 session expiration (tns-2020-06),vulnerable version of application in use
-tenable nessus < 8.11.0 stored xss (tns-2020-05),vulnerable version of application in use
-apache 2.4.x < 2.4.33 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 9.0.0 < 9.0.35 remote code execution,vulnerable version of application in use
-apache 2.2.x < 2.2.27 multiple vulnerabilities,vulnerable version of application in use
-ibm websphere java object deserialization rce,vulnerable version of application in use
-apache 2.4.18 / 2.4.20 x.509 certificate authentication bypass,vulnerable version of application in use
-apache tomcat 5.0.x <= 5.0.30 / 5.5.x < 5.5.25 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.59 security manager bypass,vulnerable version of application in use
-esxi 6.0 / 6.5 / 6.7 multiple vulnerabilities (vmsa-2018-0027) (remote check),vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.68 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.65 / 8.0.x < 8.0.27 directory traversal,vulnerable version of application in use
-apache tomcat < 7.0.67 session fixation,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.70 / 8.0.x < 8.0.36 / 8.5.x < 8.5.3 / 9.0.x < 9.0.0.m8 denial of service,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.88 denial of service,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.47 / 8.0.x < 8.0.0-rc3 information disclosure,vulnerable version of application in use
-apache tomcat 7.0.0 < 7.0.91 open redirect weakness,vulnerable version of application in use
-apache tomcat 6.0.x < 6.0.53 / 7.0.x < 7.0.77 / 8.0.x < 8.0.43 pipelined requests information disclosure,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.81 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.82 multiple vulnerabilities,vulnerable version of application in use
-esxi 6.0 / 6.5 / 6.7 multiple vulnerabilities (vmsa-2019-0005) (remote check),vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.76 / 8.0.x < 8.0.42 / 8.5.x < 8.5.12 / 9.0.x < 9.0.0.m18 improper access control,vulnerable version of application in use
-apache tomcat 6.0.x < 6.0.47 / 7.0.x < 7.0.72 / 8.0.x < 8.0.37 / 8.5.x < 8.5.5 / 9.0.x < 9.0.0.m10 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 7.0.0 < 7.0.108 rce,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.52 content-type dos,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.50 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 7.0.x < 7.0.40 multiple vulnerabilities,vulnerable version of application in use
-apache tomcat 9.0.0.m1 < 9.0.36 dos,vulnerable version of application in use
-php 7.3.x < 7.3.17 out of bounds read vulnerability,vulnerable version of application in use
-php 7.3.x < 7.3.16 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.10 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.16 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.12 multiple vulnerabilities,vulnerable version of application in use
-apache 2.4.x < 2.4.25 multiple vulnerabilities (httpoxy),vulnerable version of application in use
-php unsupported version detection,vulnerable version of application in use
-apache tomcat 5.5.x < 5.5.30,vulnerable version of application in use
